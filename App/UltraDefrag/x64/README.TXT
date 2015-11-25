@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------- 
-UltraDefrag 6.1.0 - an open source disk defragmenter for Windows. 
+UltraDefrag 6.1.1 - an open source disk defragmenter for Windows. 
 ------------------------------------------------------------------------------- 
  
 The complete information about the program can be found in UltraDefrag 
