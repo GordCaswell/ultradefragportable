@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------- 
-      UltraDefrag 7.0.1 - an open source disk defragmenter for Windows 
+      UltraDefrag 7.0.2 - an open source disk defragmenter for Windows 
 ------------------------------------------------------------------------------- 
  
 Complete information about the program can be found in UltraDefrag Handbook. 
