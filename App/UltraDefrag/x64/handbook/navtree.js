@@ -11,6 +11,7 @@ var NAVTREE =
     [ "Tips and Tricks", "Tips.html", null ],
     [ "Frequently Asked Questions", "FAQ.html", null ],
     [ "Troubleshooting", "Troubleshooting.html", null ],
+    [ "Translation", "Translation.html", null ],
     [ "Development", "Development.html", null ],
     [ "Credits and License", "Credits.html", "Credits" ]
   ] ]

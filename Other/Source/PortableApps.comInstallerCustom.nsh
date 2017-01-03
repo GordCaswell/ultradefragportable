@@ -8,3 +8,11 @@
 		${EndIf}
 	${EndIf}
 !macroend
+
+!macro CustomCodePostInstall
+	${IfNot} ${FileExists} "$INSTDIR\Data\settings\options.lua"
+	${AndIf} ${FileExists} "$INSTDIR\Data\options\*.*"
+		CopyFiles /SILENT "$INSTDIR\App\DefaultData\settings\options.lua" "$INSTDIR\Data\settings"
+		CopyFiles /SILENT "$INSTDIR\App\DefaultData\settings\gui.ini" "$INSTDIR\Data\settings"
+	${EndIf}
+!macroend

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
 <meta name="keywords" content="UltraDefrag, Ultra Defragmenter, defragmentation, Open Source disk defragmenter, defragger, boot time defragmentation, boot time defragger, handbook, user manual, index, table of contents, TOC" />
-<title>UltraDefrag Handbook: Frequently Asked Questions - 6.1.1</title>
+<title>UltraDefrag Handbook: Frequently Asked Questions - 7.0.1</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
   <td id="sourceforgelogo"><a href="http://sourceforge.net/p/ultradefrag"><img alt="ultradefrag project" src="sflogo.gif"/></a></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname"><a href="index.html" class="index_pointer">UltraDefrag Handbook</a>
-   &#160;<span id="projectnumber">6.1.1</span>
+   &#160;<span id="projectnumber">7.0.1</span>
    </div>
   </td>
  </tr>
@@ -84,8 +84,8 @@ $(document).ready(function(){initNavTree('FAQ.html','');});
 </ul>
 <h3>After defragmentation I see my restore points disappeared, what happens?</h3>
 <p>The system restore service sometimes tracks file movements. When it exhausts all the disk space reserved for restore points it eliminates elder stuff to release some space for further tracking. Due to this reason we recommend to use <a href="http://en.wikipedia.org/wiki/Backup_and_Restore">backup</a> software instead for serious purposes.</p>
-<h3>How to adjust optimization to imitate v5 one?</h3>
-<p>Unset all filters and set the <b>optimizer_file_size_threshold</b> parameter to <b>15 EB</b>.</p>
+<h3>How to move everything to the beginning of the disk?</h3>
+<p>Optimization of big files and fragments is pretty useless, but if you like it (or need for partition shrinking) you can easily do it. Just unset all filters, set the <b>fragment_size_threshold</b> parameter to <b>0</b> and the <b>optimizer_file_size_threshold</b> parameter to <b>15 EB</b>. This way UltraDefrag will move all files and fragments, regardless of their size, to the beginning of the disk.</p>
 <h1>Graphical interface</h1>
 <h3>When will the cluster map become interactive, so I'll be able to know where individual files are located on disk?</h3>
 <p>When defragmentation algorithms are quite efficient, it's definitely not necessary to know locations of individual files - anyway you'll get your drive optimized quite well. Maybe we'll implement the discussed feature later, but now we prefer to spend more time for the disk optimization algorithm improvements.</p>
